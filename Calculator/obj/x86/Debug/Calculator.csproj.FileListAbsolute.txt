@@ -21,12 +21,3 @@ C:\Users\Asus\Desktop\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.Gene
 C:\Users\Asus\Desktop\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\Asus\Desktop\Calculator\Calculator\obj\x86\Debug\Calculator.exe
 C:\Users\Asus\Desktop\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
-E:\CODES\C#\Calculator\Calculator\bin\Debug\Calculator.exe
-E:\CODES\C#\Calculator\Calculator\bin\Debug\Calculator.pdb
-E:\CODES\C#\Calculator\Calculator\obj\x86\Debug\Calculator.csprojAssemblyReference.cache
-E:\CODES\C#\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources
-E:\CODES\C#\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
-E:\CODES\C#\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.cache
-E:\CODES\C#\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.CoreCompileInputs.cache
-E:\CODES\C#\Calculator\Calculator\obj\x86\Debug\Calculator.exe
-E:\CODES\C#\Calculator\Calculator\obj\x86\Debug\Calculator.pdb

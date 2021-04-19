@@ -19,25 +19,18 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void button_click(object sender, EventArgs e)
+        private void numbersBtn(object sender, EventArgs e)
         {
             if ((textBox_Result.Text == "0") || (isOperationPerformed))
                 textBox_Result.Clear();
 
             isOperationPerformed = false;
             Button button = (Button)sender;
-            if (button.Text == ".")
-            { 
-               if(!textBox_Result.Text.Contains("."))
-                  textBox_Result.Text = textBox_Result.Text + button.Text;
-                //
-                labelCurrentOperation.Text = resultValue + "" + operationPerformed + "" + textBox_Result.Text;
-                //
-            } else
+          
             textBox_Result.Text = textBox_Result.Text + button.Text;
-            //
-            labelCurrentOperation.Text = resultValue + "" + operationPerformed + "" + textBox_Result.Text;
-            //
+            
+            labelCurrentOperation.Text = resultValue + "" + operationPerformed + "" +textBox_Result.Text;
+            
 
         }
 
@@ -60,20 +53,20 @@ namespace Calculator
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void clearEntry(object sender, EventArgs e)
         {
             textBox_Result.Text = "0";
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void allClear(object sender, EventArgs e)
         {
-            textBox_Result.Text ="0";
+            textBox_Result.Text = "0";
             resultValue = 0;
             labelCurrentOperation.Text ="";
-            operationPerformed ="";
+            operationPerformed = "";
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void resultBtn(object sender, EventArgs e)
         {
             switch (operationPerformed)
             {
