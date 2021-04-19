@@ -36,7 +36,7 @@ namespace Calculator
             } else
             textBox_Result.Text = textBox_Result.Text + button.Text;
             //
-            labelCurrentOperation.Text = resultValue + "" + operationPerformed + "" +textBox_Result.Text;
+            labelCurrentOperation.Text = resultValue + "" + operationPerformed + "" + textBox_Result.Text;
             //
 
         }
@@ -67,10 +67,10 @@ namespace Calculator
 
         private void button5_Click(object sender, EventArgs e)
         {
-            textBox_Result.Text = "0";
+            textBox_Result.Text ="0";
             resultValue = 0;
             labelCurrentOperation.Text ="";
-            operationPerformed = "";
+            operationPerformed ="";
         }
 
         private void button15_Click(object sender, EventArgs e)
